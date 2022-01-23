@@ -18,11 +18,6 @@ pipeline {
             }
         }
     }
-  post {
-     always{
-       sh 'pwd'
-       echo 'This is message is related to pipeline syntax'
-           }
-       }
+  
 }
 
